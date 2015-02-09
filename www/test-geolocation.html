@@ -1,0 +1,23 @@
+<h3>test-geolocation.html</h3>
+<h3>Cordova Geolocation Plugin</h3>
+This plugin provides information about the device's location, such as latitude and longitude. Common sources of location information include Global Positioning System (GPS) and location inferred from network signals such as IP address, RFID, WiFi and Bluetooth MAC addresses, and GSM/CDMA cell IDs. There is no guarantee that the API returns the device's actual location.
+<p>Click the button to get your coordinates.</p>
+
+<button type="button" onclick="getLocation();">Get location</button>
+
+<span id="status"></span>
+
+<div class="info">
+    Latitude: <span id="latitude">&nbsp;</span><br>
+    Longitude: <span id="longitude">&nbsp;</span><br>
+    Altitude: <span id="altitude">&nbsp;</span><br>
+    Accuracy: <span id="accuracy">&nbsp;</span><br>
+    Altitude Accuracy: <span id="altitudeAccuracy">&nbsp;</span><br>
+    Heading: <span id="heading">&nbsp;</span><br>
+    Speed: <span id="speed">&nbsp;</span><br>
+    Timestamp: <span id="timestamp">&nbsp;</span><br>
+</div>
+
+<br>
+<button type="button" onclick="loadPage('test-menu.html');">Back to test menu</button>
+
