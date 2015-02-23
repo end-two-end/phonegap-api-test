@@ -9,8 +9,14 @@
 <br>
 <button onclick="getPhotoFromLibrary();">Get Photo from Library</button>
 <br>
-<img style="display:none;" id="largeImage" src="" />
+<button onclick="getImageExifData();">Get Photo Exif Data</button>
+<div class="info">
+    DateTimeOriginal: <span id="datetime">&nbsp;</span><br>
+    GPSLatitude: <span id="gpsLat">&nbsp;</span><br>
+    GPSLongitude: <span id="gpsLong">&nbsp;</span><br>
+</div>
+<!--<img style="display:none;" id="largeImage" src="" />-->
+<div id="photoDiv"></div>
 <br>
 <button type="button" onclick="loadPage('test-menu.html');">Back to test menu</button>
-
 
